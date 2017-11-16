@@ -1,0 +1,34 @@
+William Pfleger
+811873283
+Assignment 3
+Due 11/7/17
+
+
+To first clean out the previously compiled object file, type "make clean"
+
+To compile my project, type "make"
+
+To run my project, type "./main input.txt" where input.txt is the input file in the
+current directory. To edit the input to the tree, edit the input.txt file
+
+Once you run the project, you will enter an interactive command state:
+
+	Type "i" to insert an item into the tree. You will then be prompted
+	for the number you wish to insert.
+
+	Type "d" to delete an item from the tree. You will then be prompted
+	for the number you wish to delete
+
+	Type "r" for the retreive item function. You will then be prompted 
+	for the number you wish to retrieve and the program will return whether
+	the given item was found or not.
+
+	Type "l" to print the tree lenght.
+
+	Type "n" to print the tree using in-order traversal.
+
+	Type "p" to print the tree using pre-order traversal.
+
+	Type "o" to print the tree using post-order traversal.
+
+	Type "q" to exit the program.
